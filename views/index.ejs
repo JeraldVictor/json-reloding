@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Jerald's - Test 1
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="jumbotron container">
+        <%if(msg != null){%>
+            <div class="alert alert-warning text-center" role="alert">
+               <%=msg%>
+            </div>
+        <%}%>
+        <form action="/" method="post">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+        </form>
+    </div>
+</body>
+</html>
