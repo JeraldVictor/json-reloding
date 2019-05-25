@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
 
-    "start": "nodemon ./bin/www --ignore 'DB/users.json'"
+    "start": "nodemon app.js --ignore 'DB/users.json'"
 
   },
   "repository": {
