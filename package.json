@@ -4,9 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-
     "start": "nodemon app.js --ignore 'DB/users.json'"
-
   },
   "repository": {
     "type": "git",
